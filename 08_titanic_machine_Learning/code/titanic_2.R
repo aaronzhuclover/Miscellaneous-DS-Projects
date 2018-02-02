@@ -275,8 +275,7 @@
 	rownames(conf.matrix) <- paste("Actual", rownames(conf.matrix), sep = ":")
 	colnames(conf.matrix) <- paste("Pred", colnames(conf.matrix), sep = ":")
 	print(conf.matrix)
-
-	# (206+126)/ 400 = 83% accuracy (testing data)
+	# (206+128)/ 400 = 84% accuracy (testing data)
 
 
 

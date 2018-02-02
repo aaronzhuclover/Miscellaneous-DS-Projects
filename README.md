@@ -56,7 +56,7 @@ This Github repository contains programs relevant to my resume.
 
 
 
-<li>
+<ul>
 “08_titanic_machine_Learning" demonstrates how I used machine learning algorithms to predict survival on Titanic data
     <li>
 	Predict survival using decision tree
@@ -64,7 +64,7 @@ This Github repository contains programs relevant to my resume.
     <br>
       <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/decision_tree.png" height="450"/>
 
-</li>
+</ul>
 
 
 

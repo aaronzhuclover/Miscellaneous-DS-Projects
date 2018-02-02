@@ -26,8 +26,8 @@
 
 
 	# path to data
-	inpath <- "C:/Users/Aaron_clover/Desktop/HEG_folder/_interview_prep/Titanic/data/"
-	outpath <- "C:/Users/Aaron_clover/Desktop/HEG_folder/_interview_prep/Titanic/out/"
+	inpath <- "C:/Users/Aaron_clover/Desktop/HEG_folder/_interview_prep/_github/08_titanic_machine_Learning/data/"
+	outpath <- "C:/Users/Aaron_clover/Desktop/HEG_folder/_interview_prep/_github/08_titanic_machine_Learning/out/"
 
 
 	# import titanic data 
@@ -77,9 +77,11 @@
 	conf.matrix <- table(train$Survived, predict(tree.pruned, train, type="class"))
 	rownames(conf.matrix) <- paste("Actual", rownames(conf.matrix), sep = ":")
 	colnames(conf.matrix) <- paste("Pred", colnames(conf.matrix), sep = ":")
-	print(conf.matrix)		   			   
+	print(conf.matrix)	
+    # (510+222)/909 = 80.5% accuracy (training data)	
+    tiff(paste0(outpath, "decision_tree.png"), width=1500, height=1200)	
 	fancyRpartPlot(tree.pruned)
-	# (510+222)/909 = 80.5% accuracy (training data)
+	dev.off()
 
 	# confusion matrix (testing data)
 	conf.matrix <- table(test$Survived, predict(tree.pruned, test, type="class"))
@@ -148,8 +150,8 @@
 	conf.matrix <- table(train$Survived, predict(tree.pruned, train, type="class"))
 	rownames(conf.matrix) <- paste("Actual", rownames(conf.matrix), sep = ":")
 	colnames(conf.matrix) <- paste("Pred", colnames(conf.matrix), sep = ":")
-	print(conf.matrix)		   			   
 	fancyRpartPlot(tree.pruned)
+	print(conf.matrix)		   			   
 	# (517+243)/909 = 83.6% accuracy (training data)
 
 	# confusion matrix (testing data)

@@ -61,6 +61,6 @@ This Github repository contains programs relevant to my resume.
        <li>Predict survival using decision tree</li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/decision_tree.png" height="450"/>
 	   <li>Confusion Matrix using decision tree</li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/fit_decision_tree.png" height="450"/>
+	   <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/fit_decision_tree.PNG" height="450"/>
     </ul>
 </li>	

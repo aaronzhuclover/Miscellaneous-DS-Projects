@@ -58,5 +58,5 @@ This Github repository contains programs relevant to my resume.
 
 <li>“08_titanic_machine_Learning" demonstrates how I used machine learning algorithms to predict survival on Titanic data</li>
   
-	<li>Predict survival using decision tree</li>
+<li>Predict survival using decision tree</li>
    

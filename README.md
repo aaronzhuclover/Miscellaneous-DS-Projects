@@ -56,7 +56,7 @@ This Github repository contains programs relevant to my resume.
 
 
 
-<li>“08_titanic_machine_Learning" demonstrates how I used machine learning algorithms to predict survival on Titanic data</li>
+<li>“08_titanic_machine_Learning" demonstrates how I used machine learning algorithms to predict survival on Titanic data
   
 	<li>Predict survival using decision tree</li>
 	<br>
@@ -65,37 +65,6 @@ This Github repository contains programs relevant to my resume.
 	<li>Confusion Matrix using decision tree</li>
 	<br>
       <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/fit_decision_tree.png" height="450"/>
-	<br>
-	<li>Confusion Matrix using decision tree with feature engineering</li>
-	<br>
-      <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/fit_decision_tree_feature_engineering.png" height="450"/>
-	<br>
-	<li>Confusion Matrix using Random Forest</li>
-	<br>
-      <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/fit_random_forestPNG.png" height="450"/>
-	
-	<li>Confusion Matrix using AdaBoost</li>
-	<br>
-      <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/fit_adaboost.png" height="450"/>
-	
-	<li>Confusion Matrix using Logistic regression</li>
-	<br>
-      <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/fit_logistic_regression.png" height="450"/>
-	
-	<li>Prediction using Logistic ensemble method</li>
-	<br>
-      <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/fit_ensemble.png" height="450"/>
-	
-		
-
-
-
-
-
-
-
-
-
-
-
+	<br>  
+</li>
 

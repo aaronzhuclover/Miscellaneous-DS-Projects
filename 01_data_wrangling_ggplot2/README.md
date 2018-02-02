@@ -1,8 +1,3 @@
-# master
-<p>
-This Github repository contains relevant projects mentioned in my resume.
-</p>
-
 <li>
 “01_data_wrangling_ggplot2” demonstrates how I transformed un-structured data into structured data in R with dplyr package and how to visualize data using ggplot2
 </li>

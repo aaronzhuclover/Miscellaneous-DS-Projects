@@ -63,7 +63,43 @@ This Github repository contains programs relevant to my resume.
 	<br>
       <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/decision_tree.png" height="450"/>
 	</ul>
-
+	
+    <ul>
+	<li>Confusion Matrix using decision tree</li>
+	<br>
+      <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/fit_decision_tree.png" height="450"/>
+	</ul>
+	
+	<ul>
+	<li>Confusion Matrix using decision tree with feature engineering</li>
+	<br>
+      <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/fit_decision_tree_feature_engineering.png" height="450"/>
+	</ul>
+	
+	<ul>
+	<li>Confusion Matrix using Random Forest</li>
+	<br>
+      <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/fit_random_forestPNG.png" height="450"/>
+	</ul>
+	
+	<ul>
+	<li>Confusion Matrix using AdaBoost</li>
+	<br>
+      <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/fit_adaboost.png" height="450"/>
+	</ul>
+	
+	<ul>
+	<li>Confusion Matrix using Logistic regression</li>
+	<br>
+      <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/fit_logistic_regression.png" height="450"/>
+	</ul>
+	
+	<ul>
+	<li>Prediction using Logistic ensemble method</li>
+	<br>
+      <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/fit_ensemble.png" height="450"/>
+	</ul>
+		
 </li>
 
 

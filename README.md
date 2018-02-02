@@ -27,3 +27,39 @@ This Github repository contains relevant projects mentioned in my resume.
 <br>
   <img src="https://github.com/aaronzhuclover/master/blob/master/02_ggplot2/out/drug_size_byVol.jpeg" height="450"/>
 <br>
+
+
+<li>
+“06_data_scraping_redfin" demonstrates how I swraped data from REDFIN and other websites in rvest and visualize home price changes using ggplot2
+</li>
+
+<br>
+  <img src="https://github.com/aaronzhuclover/master/blob/master/06_data_scraping_redfin/out/sf_home_price.jpeg" height="450"/>
+<br>
+  <img src="https://github.com/aaronzhuclover/master/blob/master/06_data_scraping_redfin/out/sf_home_price_change.jpeg" height="450"/>
+<br>
+  <img src="https://github.com/aaronzhuclover/master/blob/master/06_data_scraping_redfin/out/condo_home_price.jpeg" height="450"/>
+<br>
+  <img src="https://github.com/aaronzhuclover/master/blob/master/06_data_scraping_redfin/out/condo_home_price_change.jpeg" height="450"/>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -44,6 +44,7 @@ This Github repository contains programs relevant to my resume.
 <li>
 “04_bayesian_simulation” and "05_gibbs_sampling" demonstrate how I used FGLS to solve solve heteroskedasticity issue and successful draw 10,000 posterior parameters algorithms, including EM algorithm, MCMC and Gibbs sampling
 </li>
+
 Key variables in clients’ data sets: 
 -	Transaction price: dependent variable in linear regression model 
 -	Date of transaction: monthly effect

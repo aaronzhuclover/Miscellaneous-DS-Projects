@@ -83,22 +83,24 @@ Add systematic variation (interaction terms) for explanation variables
 
 Find optimal interaction terms for each explanation variable using AIC/AICc
 -	Theoretically, we need to search 5^10 = 9,765,625 combinations
--	We used iterative feature selection methods to find to the optimal model (converged model) 
+-	Used iterative feature selection methods with 10-fold cross validation to find early stopping point, aiming to reducing running time of searching for the optimal model 
 
 Bayesian simulation on regression parameters 
 -	Mean(β) =  B̂ = (x'x)⁻¹ x' y
 -	Var(β) = ∑ = σ²(x'x)⁻¹
 -	β ~ MVN (B̂, ∑)
+-	ε ~ Scale-inv x ² (n, σ²)
 -	cholesky decomposition: ∑ = L’L
 -	simulated beta = B̂ + LZ,    Z ~ MVN (0, 1)
 
 Apply Gibbs sampling in heteroskedastic model. Gibbs sampler:sequentially drawing from each of the full conditional posteriors eg p(θ1 | θ2, y) and p(θ2 | θ1, y). MCMC is used to simulate a Markov Chain that converges to the posterior distribution 
+-	Applied EM algorithm to find 10 starting points
 -	ε ~ N(0, σ²) is violated; σ² might NOT be constant 
--	using FGLS to reweight the data to convert it into homoscedastic model
--	we don't know the joint distribution for σA² and σB², but we know σA² and σB² individually 
+-	Used FGLS to reweight the data to convert it into homoscedastic model
+-	We don't know the joint distribution for σA² and σB², but we know σA² and σB² individually 
 -	σA² = ∑(pA - XAB) ² / NA
 -	σA² = ∑(pB - XBB) ² / NB
--	using gibbs sampling iteratively to draw betas 
+-	Used gibbs sampling iteratively to draw betas 
 
 
 

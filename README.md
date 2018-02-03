@@ -1,7 +1,4 @@
-# master
-<p>
-This Github repository contains programs relevant to my resume.
-</p>
+# This Github repository contains programs relevant to my resume.
 
 <li>
 “01_data_wrangling_ggplot2” demonstrates how I transformed un-structured data into structured data in R with dplyr package and visualize data using ggplot2

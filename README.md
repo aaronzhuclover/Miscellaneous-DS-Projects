@@ -20,7 +20,7 @@
 
 
 <li>
-“03_feature_selection_mc_simulation” demonstrates how I implemented feature engineering, such as, forward selection method to select optimal linear regression models and used Monte Carlo simulation to cross validate a set of classifiers to get robust predictions
+“02_feature_selection_mc_simulation” demonstrates how I implemented feature engineering, such as, forward selection method to select optimal linear regression models and used Monte Carlo simulation to cross validate a set of classifiers to get robust predictions
       <ul> 
        <li>Implemented parallel computing to increase efficiency of forward selection using utilizing multiple CPU cores</li>
 	   <li>Expanded explanatory variable by creating lagged terms, quadratic terms and seasonal effects</li>
@@ -32,7 +32,7 @@
 <br>
 
 <li>
-“04_bayesian_simulation_gibbs_sampling" demonstrate how I used FGLS to solve solve heteroskedasticity issue and successfully draw 10,000 posterior parameters using algorithms, including EM algorithm, MCMC and Gibbs sampling
+“03_bayesian_simulation_gibbs_sampling" demonstrate how I used FGLS to solve solve heteroskedasticity issue and successfully draw 10,000 posterior parameters using algorithms, including EM algorithm, MCMC and Gibbs sampling
 </li>
 <br>
 
@@ -97,22 +97,22 @@ Apply Gibbs sampling in heteroskedastic model. Gibbs sampler: sequentially drawi
 
 <br>
 <li>
-“05_data_scraping_redfin" demonstrates how I automate data scrapping from REDFIN and other websites in rvest and visualize home price changes using ggplot2
+“04_data_scraping_redfin" demonstrates how I automate data scrapping from REDFIN and other websites in rvest and visualize home price changes using ggplot2
 </li>
 
 <br>
-  <img src="https://github.com/aaronzhuclover/master/blob/master/05_data_scraping_redfin/out/sf_home_price.png" height="450"/>
+  <img src="https://github.com/aaronzhuclover/master/blob/master/04_data_scraping_redfin/out/sf_home_price.png" height="450"/>
 <br>
-  <img src="https://github.com/aaronzhuclover/master/blob/master/05_data_scraping_redfin/out/sf_home_price_change.png" height="450"/>
+  <img src="https://github.com/aaronzhuclover/master/blob/master/04_data_scraping_redfin/out/sf_home_price_change.png" height="450"/>
 <br>
-  <img src="https://github.com/aaronzhuclover/master/blob/master/05_data_scraping_redfin/out/condo_home_price.png" height="450"/>
+  <img src="https://github.com/aaronzhuclover/master/blob/master/04_data_scraping_redfin/out/condo_home_price.png" height="450"/>
 <br>
-  <img src="https://github.com/aaronzhuclover/master/blob/master/05_data_scraping_redfin/out/condo_home_price_change.png" height="450"/>
+  <img src="https://github.com/aaronzhuclover/master/blob/master/04_data_scraping_redfin/out/condo_home_price_change.png" height="450"/>
 <br>
 
 
 <li>
-“06_recommendation_system_music" demonstrates how I visualized a network of relationships among 285 artists based on users’ behavior and customized recommendation lists to users using item based collaborative filtering and user based recommendation methods. I also implemented parallel computing to increase recommendation efficiency by 90%
+“05_recommendation_system_music" demonstrates how I visualized a network of relationships among 285 artists based on users’ behavior and customized recommendation lists to users using item based collaborative filtering and user based recommendation methods. I also implemented parallel computing to increase recommendation efficiency by 90%
     <ul> 
        <li>Created a matrix of artists’ similarity using centered cosine similarity</li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_recommendation_system_music/out/cosine.PNG" height="100"/>
@@ -122,28 +122,28 @@ Apply Gibbs sampling in heteroskedastic model. Gibbs sampler: sequentially drawi
 </li>
 
 <br>
-  <img src="https://github.com/aaronzhuclover/master/blob/master/06_recommendation_system_music/out/wordcloud.png" height="450"/>
+  <img src="https://github.com/aaronzhuclover/master/blob/master/05_recommendation_system_music/out/wordcloud.png" height="450"/>
 <br>
-  <img src="https://github.com/aaronzhuclover/master/blob/master/06_recommendation_system_music/out/network.png" height="450"/>
+  <img src="https://github.com/aaronzhuclover/master/blob/master/05_recommendation_system_music/out/network.png" height="450"/>
 <br>
 
 
 
-<li>“07_titanic_machine_Learning" demonstrates how I used machine learning algorithms to predict survival on Titanic data
+<li>“06_titanic_machine_Learning" demonstrates how I used machine learning algorithms to predict survival on Titanic data
     <ul> 
        <li>Predict survival using decision tree</li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_titanic_machine_Learning/out/decision_tree.png" height="450"/>
+	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/decision_tree.png" height="450"/>
 	   <li>Confusion Matrix using decision tree</li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_titanic_machine_Learning/out/fit_decision_tree.PNG" height="200"/>
+	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_decision_tree.PNG" height="200"/>
 	   <li>Confusion Matrix using decision tree with feature engineering</li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_titanic_machine_Learning/out/fit_decision_tree_feature_engineering.PNG" height="200"/>
+	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_decision_tree_feature_engineering.PNG" height="200"/>
 	   <li>Improved prediction using Random Forest</li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_titanic_machine_Learning/out/fit_random_forestPNG.PNG" height="200"/>
+	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_random_forestPNG.PNG" height="200"/>
 	   <li>Improved prediction using AdaBoost</li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_titanic_machine_Learning/out/fit_adaboost.PNG" height="200"/>
+	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_adaboost.PNG" height="200"/>
 	   <li>Improved prediction using Logistic regression</li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_titanic_machine_Learning/out/fit_logistic_regression.PNG" height="200"/>
+	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_logistic_regression.PNG" height="200"/>
 	   <li>Improve prediction by stacking three methods using ensemble method</li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_titanic_machine_Learning/out/fit_ensemble.PNG" height="100"/>   
+	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_ensemble.PNG" height="100"/>   
     </ul>
 </li>	

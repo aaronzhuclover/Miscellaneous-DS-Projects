@@ -38,12 +38,12 @@ This Github repository contains programs relevant to my resume.
        <li>Used Monte Carlo simulations to cross validate two different regression models and performed prediction with robust models</li>
       </ul>
 </li>
+<br>
 
 
 
 
-
-
+<br>
 <li>
 “06_data_scraping_redfin" demonstrates how I automate data scrapping from REDFIN and other websites in rvest and visualize home price changes using ggplot2
 </li>

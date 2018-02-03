@@ -1,4 +1,3 @@
-
 <li>
 “04_bayesian_simulation” and "05_gibbs_sampling" demonstrate how I used FGLS to solve solve heteroskedasticity issue and successfully draw 10,000 posterior parameters using algorithms, including EM algorithm, MCMC and Gibbs sampling
 </li>
@@ -39,7 +38,7 @@ Add systematic variation (interaction terms) for explanation variables
 -	[Xi] * [supplier] 
 -	[Xi] * [product thickness] 
 
-Find optimal interaction terms for each explanation variable using AIC/AICc
+Find optimal interaction terms for each explanation variable using model selection methods with AIC/AICc
 -	Theoretically, we need to search 5^10 = 9,765,625 combinations
 -	Used iterative feature selection methods with 10-fold cross validation to find early stopping point, aiming to reducing running time of searching for the optimal model 
 
@@ -59,4 +58,5 @@ Apply Gibbs sampling in heteroskedastic model. Gibbs sampler: sequentially drawi
 -	σA² = ∑(pA - XAB) ² / NA
 -	σA² = ∑(pB - XBB) ² / NB
 -	Used gibbs sampling iteratively to draw betas 
+
 

@@ -27,6 +27,7 @@ Key explanatory variables (supply, demand, economic variables, these are third p
 Conspiracy indicator (c):
 -	A dummy variable, which equals to 1 when transaction date is in conspiracy period 
 -	Conspiracy period was pre-defined by attorney’s investigation 
+
 Basic regression model:
 -	 Pi =   β0 + β1x1 + β2x2 + … + β10x10 + β11 c  + ε  , ε ~ N(0, σ²)
 -	Predicted competitive price = β0 + β1x1 + β2x2 + … + β10x10

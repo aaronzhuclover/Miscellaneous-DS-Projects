@@ -89,6 +89,8 @@ var(B̂) = var[B + (x'x)⁻¹x'e]
 	   
 -	Another remedy is to use Feasible GLS. We used covariance of residuals in OLS stage to estimate the error covariance structure and use residual standard deviation to reweight our data. Since we imposed model for σi², we should have smaller variance than OLS's (var(FGLS)<var(OLS)<var(Heteroskedasticity-Robust Estimators))
 
+  <img src="https://github.com/aaronzhuclover/master/blob/master/03_bayesian_simulation_gibbs_sampling/bias_variance.PNG" height="400"/>
+  <br>
 Then we have <br>
 var(εi/σi) = σi²/ σi² = 1 = var(εj/σj), where var(εi) ≠ var(εj) <br>
 now we successful solve heteroscedasticity and turn regression into homoscedastic model. 
@@ -147,6 +149,7 @@ Applied EM algorithm to find 10 starting points. Applied Gibbs sampling in heter
     <ul> 
        <li>Predict survival using decision tree</li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/decision_tree.png" height="450"/>
+	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/overfit.PNG" height="450"/>
 	   <li>Confusion Matrix using decision tree</li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_decision_tree.PNG" height="200"/>
 	   <li>Confusion Matrix using decision tree with feature engineering</li>

@@ -123,6 +123,7 @@ Apply Gibbs sampling in heteroskedastic model. Gibbs sampler: sequentially drawi
     <ul> 
        <li>Created a matrix of artists’ similarity using centered cosine similarity</li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_recommendation_system_music/out/cosine.PNG" height="100"/>
+	   <li>Accuracy of recommendation will be improved by including features of artists into similarity calculation and users’ preference will help with user based recommendation methods</li>
 	</ul>   
 
 </li>

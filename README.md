@@ -39,7 +39,7 @@
 <br>
 
 <li>
-“04_bayesian_simulation” and "05_gibbs_sampling" demonstrate how I used FGLS to solve solve heteroskedasticity issue and successfully draw 10,000 posterior parameters using algorithms, including EM algorithm, MCMC and Gibbs sampling
+“04_bayesian_simulation_gibbs_sampling" demonstrate how I used FGLS to solve solve heteroskedasticity issue and successfully draw 10,000 posterior parameters using algorithms, including EM algorithm, MCMC and Gibbs sampling
 </li>
 <br>
 
@@ -104,7 +104,7 @@ Apply Gibbs sampling in heteroskedastic model. Gibbs sampler: sequentially drawi
 
 <br>
 <li>
-“06_data_scraping_redfin" demonstrates how I automate data scrapping from REDFIN and other websites in rvest and visualize home price changes using ggplot2
+“05_data_scraping_redfin" demonstrates how I automate data scrapping from REDFIN and other websites in rvest and visualize home price changes using ggplot2
 </li>
 
 <br>
@@ -119,7 +119,7 @@ Apply Gibbs sampling in heteroskedastic model. Gibbs sampler: sequentially drawi
 
 
 <li>
-“07_recommendation_system_music" demonstrates how I visualized a network of relationships among 285 artists based on users’ behavior and customized recommendation lists to users using item based collaborative filtering and user based recommendation methods. I also implemented parallel computing to increase recommendation efficiency by 90%
+“06_recommendation_system_music" demonstrates how I visualized a network of relationships among 285 artists based on users’ behavior and customized recommendation lists to users using item based collaborative filtering and user based recommendation methods. I also implemented parallel computing to increase recommendation efficiency by 90%
     <ul> 
        <li>Created a matrix of artists’ similarity using centered cosine similarity</li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_recommendation_system_music/out/cosine.PNG" height="100"/>
@@ -136,7 +136,7 @@ Apply Gibbs sampling in heteroskedastic model. Gibbs sampler: sequentially drawi
 
 
 
-<li>“08_titanic_machine_Learning" demonstrates how I used machine learning algorithms to predict survival on Titanic data
+<li>“07_titanic_machine_Learning" demonstrates how I used machine learning algorithms to predict survival on Titanic data
     <ul> 
        <li>Predict survival using decision tree</li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/08_titanic_machine_Learning/out/decision_tree.png" height="450"/>

@@ -81,7 +81,7 @@ Apply FGLS in presence of Heteroscedasticity
 -	In the presence of heteroscedasticity, OLS estimators are still unbiased, but it is no longer BLUE (best linear unbiased estimator). The variances of the OLS estimators are biased in this case. Thus, the usual OLS t statistic and confidence intervals are no longer valid for inference problem. This problem can lead you to conclude that a model term is statistically significant when it is actually not significant.
 -	One remedy to heteroscedasticity is to use robust covariance matrix. Use of robust covariance matrix leaves the coefficient estimates intact but expands confidence intervals to account for the violated assumption of i.i.d. errors.
 
-(See Theorem 10.1 in Greene (2003))
+(See Theorem 10.1 in Greene (2003)) <br>
 var(B̂) = var[B + (x'x)⁻¹x'e] 
        = var[(x'x)⁻¹x'e] 
        = (x'x)⁻¹x' cov(e) x (x'x)⁻¹ 

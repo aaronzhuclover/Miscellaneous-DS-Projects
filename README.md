@@ -20,7 +20,7 @@
 
 
 <li>
-“02_feature_selection_mc_simulation” demonstrates how I implemented feature engineering, such as, forward selection method to select optimal linear regression models and used Monte Carlo simulation to cross validate a set of classifiers to get robust predictions
+<strong>“02_feature_selection_mc_simulation”</strong> demonstrates how I implemented feature engineering, such as, forward selection method to select optimal linear regression models and used Monte Carlo simulation to cross validate a set of classifiers to get robust predictions
       <ul> 
        <li>Implemented parallel computing to increase efficiency of forward selection using utilizing multiple CPU cores</li>
 	   <li>Expanded explanatory variable by creating lagged terms, quadratic terms and seasonal effects</li>
@@ -32,7 +32,7 @@
 <br>
 
 <li>
-“03_bayesian_simulation_gibbs_sampling" demonstrate how I used FGLS to solve solve heteroskedasticity issue and successfully draw 10,000 posterior parameters using algorithms, including EM algorithm, MCMC and Gibbs sampling
+<strong>“03_bayesian_simulation_gibbs_sampling"</strong> demonstrate how I used FGLS to solve solve heteroskedasticity issue and successfully draw 10,000 posterior parameters using algorithms, including EM algorithm, MCMC and Gibbs sampling
 </li>
 <br>
 
@@ -97,7 +97,7 @@ Apply Gibbs sampling in heteroskedastic model. Gibbs sampler: sequentially drawi
 
 <br>
 <li>
-“04_data_scraping_redfin" demonstrates how I automate data scrapping from REDFIN and other websites in rvest and visualize home price changes using ggplot2
+<strong>“04_data_scraping_redfin"</strong> demonstrates how I automate data scrapping from REDFIN and other websites in rvest and visualize home price changes using ggplot2
 </li>
 
 <br>
@@ -112,7 +112,7 @@ Apply Gibbs sampling in heteroskedastic model. Gibbs sampler: sequentially drawi
 
 
 <li>
-“05_recommendation_system_music" demonstrates how I visualized a network of relationships among 285 artists based on users’ behavior and customized recommendation lists to users using item based collaborative filtering and user based recommendation methods. I also implemented parallel computing to increase recommendation efficiency by 90%
+<strong>“05_recommendation_system_music"</strong> demonstrates how I visualized a network of relationships among 285 artists based on users’ behavior and customized recommendation lists to users using item based collaborative filtering and user based recommendation methods. I also implemented parallel computing to increase recommendation efficiency by 90%
     <ul> 
        <li>Created a matrix of artists’ similarity using centered cosine similarity</li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_recommendation_system_music/out/cosine.PNG" height="100"/>
@@ -129,7 +129,7 @@ Apply Gibbs sampling in heteroskedastic model. Gibbs sampler: sequentially drawi
 
 
 
-<li>“06_titanic_machine_Learning" demonstrates how I used machine learning algorithms to predict survival on Titanic data
+<li><strong>“06_titanic_machine_Learning"</strong> demonstrates how I used machine learning algorithms to predict survival on Titanic data
     <ul> 
        <li>Predict survival using decision tree</li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/decision_tree.png" height="450"/>

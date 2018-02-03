@@ -78,7 +78,7 @@ Add systematic variation (interaction terms) for explanation variables
 -	[Xi] * [supplier] 
 -	[Xi] * [product thickness] 
 
-Find optimal interaction terms for each explanation variable using AIC/AICc
+Find optimal interaction terms for each explanation variable using model selection methods with AIC/AICc
 -	Theoretically, we need to search 5^10 = 9,765,625 combinations
 -	Used iterative feature selection methods with 10-fold cross validation to find early stopping point, aiming to reducing running time of searching for the optimal model 
 
@@ -119,6 +119,11 @@ Apply Gibbs sampling in heteroskedastic model. Gibbs sampler: sequentially drawi
 
 <li>
 “07_recommendation_system_music" demonstrates how I visualized a network of relationships among 285 artists based on users’ behavior and customized recommendation lists to users using item based collaborative filtering and user based recommendation methods. I also implemented parallel computing to increase recommendation efficiency by 90%
+    <ul> 
+       <li>Created a matrix of artists’ similarity using centered cosine similarity</li>
+	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_recommendation_system_music/out/cosine.PNG" height="450"/>
+	</ul>   
+
 </li>
 
 <br>

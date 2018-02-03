@@ -87,7 +87,7 @@ var(B̂) = var[B + (x'x)⁻¹x'e]
        = (x'x)⁻¹x' cov(e) x (x'x)⁻¹ 
        = σ²(x'x)⁻¹x' Ω x (x'x)⁻¹
 	   
--	Another remedy is to use Feasible GLS. We used covariance of residuals in OLS stage to estimate the error covariance structure and use residual standard deviation to reweight our data.
+-	Another remedy is to use Feasible GLS. We used covariance of residuals in OLS stage to estimate the error covariance structure and use residual standard deviation to reweight our data. Since we imposed model for σi², we should have smaller variance than OLS's (var(FGLS)<var(OLS)<var(Heteroskedasticity-Robust Estimators))
 
 Then we have <br>
 var(εi/σi) = σi²/ σi² = 1 = var(εj/σj), where var(εi) ≠ var(εj) <br>

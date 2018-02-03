@@ -42,7 +42,7 @@ This Github repository contains programs relevant to my resume.
 <br>
 
 <li>
-“04_bayesian_simulation” and "05_gibbs_sampling" demonstrate how I used FGLS to solve solve heteroskedasticity issue and successful draw 10,000 posterior parameters algorithms, including EM algorithm, MCMC and Gibbs sampling
+“04_bayesian_simulation” and "05_gibbs_sampling" demonstrate how I used FGLS to solve solve heteroskedasticity issue and successfully draw 10,000 posterior parameters using algorithms, including EM algorithm, MCMC and Gibbs sampling
 </li>
 <br>
 
@@ -93,7 +93,7 @@ Bayesian simulation on regression parameters
 -	cholesky decomposition: ∑ = L’L
 -	simulated beta = B̂ + LZ,    Z ~ MVN (0, 1)
 
-Apply Gibbs sampling in heteroskedastic model. Gibbs sampler:sequentially drawing from each of the full conditional posteriors eg p(θ1 | θ2, y) and p(θ2 | θ1, y). MCMC is used to simulate a Markov Chain that converges to the posterior distribution 
+Apply Gibbs sampling in heteroskedastic model. Gibbs sampler: sequentially drawing from each of the full conditional posteriors eg p(θ1 | θ2, y) and p(θ2 | θ1, y). MCMC is used to simulate a Markov Chain that converges to the posterior distribution 
 -	Applied EM algorithm to find 10 starting points
 -	ε ~ N(0, σ²) is violated; σ² might NOT be constant 
 -	Used FGLS to reweight the data to convert it into homoscedastic model

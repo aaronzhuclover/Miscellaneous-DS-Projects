@@ -1,7 +1,7 @@
 # This Github repository contains programs relevant to my resume.
 
 <li>
-“01_data_wrangling_ggplot2” demonstrates how I extracted and manipulated multiple data sources and transformed un-structured data into structured data in R with dplyr package and visualize data using ggplot2
+<strong>“01_data_wrangling_ggplot2”</strong> demonstrates how I extracted and manipulated multiple data sources and transformed un-structured data into structured data in R with dplyr package and visualize data using ggplot2
 </li>
 
 <br>

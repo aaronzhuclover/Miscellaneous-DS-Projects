@@ -97,6 +97,7 @@ now we successful solve heteroscedasticity and turn regression into homoscedasti
 <br>
 <br>
 Posterior draws using Gibbs Sampling technique:  <br>
+(See Chapter 12 of Bayesian Data Analysis by Andrew Gelman (2014)) <br>
 
 Under Bayesian framework, we have 
 -	Mean(β) = B̂ = (x'x)⁻¹ x' y

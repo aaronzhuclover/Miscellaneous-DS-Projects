@@ -1,6 +1,6 @@
 
 <li>
-“03_feature_selection_mc_simulation” demonstrates how I implemented feature engineering, such as, forward selection method to select optimal linear regression models and used Monte Carlo simulation to cross validate a set of classifiers to get robust predictions
+<strong>“02_feature_selection_mc_simulation”</strong> demonstrates how I implemented feature engineering, such as, forward selection method to select optimal linear regression models and used Monte Carlo simulation to cross validate a set of classifiers to get robust predictions
       <ul> 
        <li>Implemented parallel computing to increase efficiency of forward selection using utilizing multiple CPU cores</li>
 	   <li>Expanded explanatory variable by creating lagged terms, quadratic terms and seasonal effects</li>

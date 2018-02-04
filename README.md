@@ -93,8 +93,9 @@ var(B̂) = var[B + (x'x)⁻¹x'e]
   <br>
 Then we have <br>
 var(εi/σi) = σi²/ σi² = 1 = var(εj/σj), where var(εi) ≠ var(εj) <br>
-now we successful solve heteroscedasticity and turn regression into homoscedastic model. <br>
-
+now we successful solve heteroscedasticity and turn regression into homoscedastic model. 
+<br>
+<br>
 Posterior draws using Gibbs Sampling technique:  <br>
 Under Bayesian framework, we have <br>
 -	Mean(β) = B̂ = (x'x)⁻¹ x' y

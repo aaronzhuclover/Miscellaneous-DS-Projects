@@ -148,8 +148,8 @@ Applied EM algorithm to find 10 starting points. Applied Gibbs sampling in heter
 <li><strong>“06_titanic_machine_Learning"</strong> demonstrates how I used machine learning algorithms to predict survival on Titanic data
     <ul> 
        <li>Predict survival using decision tree</li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/decision_tree.png" height="450"/>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/overfit.PNG" height="450"/>
+	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/decision_tree_readme.PNG" height="450"/>
+	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/overfit.PNG" height="400"/>
 	   <li>Confusion Matrix using decision tree</li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_decision_tree.PNG" height="200"/>
 	   <li>Confusion Matrix using decision tree with feature engineering</li>

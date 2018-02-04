@@ -26,8 +26,8 @@
 
 
 	# path to data
-	inpath <- "C:/Users/Aaron_clover/Desktop/HEG_folder/_interview_prep/_github/08_titanic_machine_Learning/data/"
-	outpath <- "C:/Users/Aaron_clover/Desktop/HEG_folder/_interview_prep/_github/08_titanic_machine_Learning/out/"
+	inpath <- "C:/Users/Aaron_clover/Desktop/HEG_folder/_interview_prep/_github/06_titanic_machine_Learning/data/"
+	outpath <- "C:/Users/Aaron_clover/Desktop/HEG_folder/_interview_prep/_github/06_titanic_machine_Learning/out/"
 
 
 	# import titanic data 
@@ -59,7 +59,9 @@
 	# run first classification tree 
 	set.seed(123)
 	tree <- rpart(Survived ~ Pclass + Sex + Age + SibSp + Parch + Fare + Embarked, data = train, control = rpart.control(cp = 0.0001))
+	tiff(paste0(outpath, "decision_tree.png"), width=1500, height=1200)	
 	fancyRpartPlot(tree)
+	dev.off()
 	# Pick the tree size that minimizes misclassification rate (i.e. prediction error).
 	# Prediction error rate in training data = Root node error * rel error * 100%    = right prediction / total in training set 
 	# Prediction error rate in cross-validation = Root node error * xerror * 100%
@@ -79,7 +81,7 @@
 	colnames(conf.matrix) <- paste("Pred", colnames(conf.matrix), sep = ":")
 	print(conf.matrix)	
     # (510+222)/909 = 80.5% accuracy (training data)	
-    tiff(paste0(outpath, "decision_tree.png"), width=1500, height=1200)	
+    tiff(paste0(outpath, "pruned_decision_tree.png"), width=1500, height=1200)	
 	fancyRpartPlot(tree.pruned)
 	dev.off()
 

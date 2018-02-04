@@ -154,13 +154,13 @@ Applied EM algorithm to find 10 starting points. Applied Gibbs sampling in heter
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_decision_tree.PNG" height="200"/>
 	   <li>Confusion Matrix using decision tree with feature engineering</li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_decision_tree_feature_engineering.PNG" height="200"/>
-	   <li>Improved prediction using Random Forest</li>
+	   <li>Improved prediction using <strong>Random Forest</strong></li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_random_forestPNG.PNG" height="200"/>
-	   <li>Improved prediction using AdaBoost</li>
+	   <li>Improved prediction using <strong>AdaBoost</strong></li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_adaboost.PNG" height="200"/>
-	   <li>Improved prediction using Logistic regression</li>
+	   <li>Improved prediction using <strong>Logistic regression</strong></li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_logistic_regression.PNG" height="200"/>
-	   <li>Improve prediction by stacking three methods using ensemble method</li>
+	   <li>Improve prediction by stacking three methods using <strong>ensemble method</strong></li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_ensemble.PNG" height="100"/>   
     </ul>
 </li>	

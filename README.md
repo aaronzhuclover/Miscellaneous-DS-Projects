@@ -131,7 +131,7 @@ Applied EM algorithm to find 10 starting points. Applied Gibbs sampling in heter
 
 
 <li>
-<strong>“05_recommendation_system_music"</strong> demonstrates how I used machine learning algorithm, collaborative filtering to make music recommendation to users.
+<strong>“05_recommendation_system_music"</strong> demonstrates how I used machine learning algorithm, <strong>collaborative filtering</strong> to make music recommendation to users.
 <ul>
        <li>visualized a network of relationships among 285 artists based on users’ behavior and customized recommendation lists to users using item based <strong>collaborative filtering</strong> and user based recommendation methods. I also implemented parallel computing to increase recommendation efficiency by 90%</li>
        <li>Created a matrix of artists’ similarity using centered cosine similarity</li>

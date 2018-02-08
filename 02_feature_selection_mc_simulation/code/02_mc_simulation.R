@@ -24,7 +24,7 @@ library(LEAP)
 #########################################################################
 # **************************************************************************************************************************
 # **************************************************************************************************************************
-inpath <- "M:/Containerboard/To Counsel/15-12-11_Dwyer_Merits_Reply_Backup_(dbx)/Other_Files/Data/_out/"
+inpath <- ".../_out/"
 data <- as.data.frame(read.dta13(paste0(inpath, "a03_04a_regdata_real.dta")))
 # **************************************************************************************************************************
 
@@ -121,6 +121,6 @@ stopCluster(cl)
 
 simu <- as.data.frame(simu)
 
-outpath <- "C:/Users/azhu.HARRISECONOMICS/Dropbox/mtcs/04_pca_aicc/out/"
+outpath <- ".../out/"
 write.xlsx(simu, paste0(outpath, "simu_fcp_but4_2.xlsx"), append = T)	
 

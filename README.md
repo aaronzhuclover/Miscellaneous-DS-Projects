@@ -103,8 +103,8 @@ Under Bayesian framework, we have
 -	Mean(β) = B̂ = (x'x)⁻¹ x' y
 -	Var(β) = ∑ = σ²(x'x)⁻¹
 -	β ~ MVN (B̂, ∑)
--	σi² = ∑(pi - Xi B̂) ² / Ni
--	εi ~ Scale-inv  x ² (n, σi²)
+-	s² = ∑(pi - Xi B̂)² / N
+-	σ² ~ Scale-inv x² (n, s²)
 -	cholesky decomposition: ∑ = L’L
 -	simulated beta = B̂ + LZ, Z ~ MVN (0, 1)
 

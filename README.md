@@ -151,12 +151,12 @@ Applied EM algorithm to find 10 starting points. Applied Gibbs sampling in heter
 
 <li><strong>“08_dashboard_excel_tableau"</strong> demonstrates how I created dashboard in Excel and Tableau
 </li>
-# Dashboard in Tableau 
-<https://public.tableau.com/shared/82XHHCJTQ?:showVizHome=no&:embed=true>
-# Dashboard in Excel
-<https://1drv.ms/x/s!AopQ7UGmMDONgWc9DuOeMea7WHkh> 
+Dashboard in Tableau https://public.tableau.com/shared/82XHHCJTQ?:showVizHome=no&:embed=true
+Dashboard in Excel https://1drv.ms/x/s!AopQ7UGmMDONgWc9DuOeMea7WHkh
 <br>
 
+
+<br>
 <li>
 <strong>“09_fraud_detection”</strong> demonstrates how created Dashboard using VBA and Tableau and predicted frauds in highly unbalanced data by training classifiers, including logistic regression, neural network and deep learning autoencoders   
 </li>

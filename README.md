@@ -163,10 +163,10 @@ See interaction dashboard in Excel at https://1drv.ms/x/s!AopQ7UGmMDONgWc9DuOeMe
 
 <br>
 <li>
-<strong>“09_fraud_detection”</strong> demonstrates how created Dashboard using VBA and Tableau and predicted frauds in highly unbalanced data by training classifiers, including logistic regression, neural network and deep learning autoencoders   
+<strong>“09_fraud_detection_machine_learning”</strong> demonstrates how created Dashboard using VBA and Tableau and predicted frauds in highly unbalanced data by training classifiers, including logistic regression, neural network and deep learning autoencoders   
 </li>
 <br>
-  <img src="https://github.com/aaronzhuclover/master/blob/master/09_fraud_detection/fraud_dashboard.PNG" height="450"/>
+  <img src="https://github.com/aaronzhuclover/master/blob/master/09_fraud_detection_machine_learning/fraud_dashboard.PNG" height="450"/>
 <br>
 See interactive dashboard at https://public.tableau.com/views/Fraud_dashboard/FraudDashboard?:showVizHome=no&:embed=true
 <br>

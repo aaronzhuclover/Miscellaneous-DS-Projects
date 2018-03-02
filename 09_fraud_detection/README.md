@@ -4,7 +4,8 @@
 <br>
   <img src="https://github.com/aaronzhuclover/master/blob/master/09_fraud_detection/fraud_dashboard.PNG" height="450"/>
 <br>
-See interactive dashboard at <https://public.tableau.com/views/Fraud_dashboard/FraudDashboard?:showVizHome=no&:embed=true> 
+See interactive dashboard at 
+<https://public.tableau.com/views/Fraud_dashboard/FraudDashboard?:showVizHome=no&:embed=true> 
 <br>
 <li> <strong>Overview of Deeping Learning Autoencoders</strong>
       <ul> 

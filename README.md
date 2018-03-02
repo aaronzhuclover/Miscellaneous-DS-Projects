@@ -7,15 +7,7 @@
 <br>
   <img src="https://github.com/aaronzhuclover/master/blob/master/01_data_wrangling_ggplot2/source_readme/data.PNG" height="450"/>
 <br>
-  <img src="https://github.com/aaronzhuclover/master/blob/master/01_data_wrangling_ggplot2/source_readme/Company_pro_cap.PNG" height="450"/>
-<br>
   <img src="https://github.com/aaronzhuclover/master/blob/master/01_data_wrangling_ggplot2/out/drug_int_mbs_byMfr.jpeg" height="450"/>
-<br>
-  <img src="https://github.com/aaronzhuclover/master/blob/master/01_data_wrangling_ggplot2/out/drug_shr_byVol.jpeg" height="450"/>
-<br>
-  <img src="https://github.com/aaronzhuclover/master/blob/master/01_data_wrangling_ggplot2/out/drug_size_byDol.jpeg" height="450"/>
-<br>
-  <img src="https://github.com/aaronzhuclover/master/blob/master/01_data_wrangling_ggplot2/out/drug_size_byVol.jpeg" height="450"/>
 <br>
 
 
@@ -122,12 +114,6 @@ Applied EM algorithm to find 10 starting points. Applied Gibbs sampling in heter
 <br>
   <img src="https://github.com/aaronzhuclover/master/blob/master/04_data_scraping_redfin/out/sf_home_price.png" height="450"/>
 <br>
-  <img src="https://github.com/aaronzhuclover/master/blob/master/04_data_scraping_redfin/out/sf_home_price_change.png" height="450"/>
-<br>
-  <img src="https://github.com/aaronzhuclover/master/blob/master/04_data_scraping_redfin/out/condo_home_price.png" height="450"/>
-<br>
-  <img src="https://github.com/aaronzhuclover/master/blob/master/04_data_scraping_redfin/out/condo_home_price_change.png" height="450"/>
-<br>
 
 
 <li>
@@ -153,32 +139,30 @@ Applied EM algorithm to find 10 starting points. Applied Gibbs sampling in heter
     <ul> 
        <li>Predict survival using decision tree</li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/decision_tree_readme.PNG" height="450"/>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/overfit.PNG" height="400"/>
-	   <li>Confusion Matrix using decision tree</li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_decision_tree.PNG" height="200"/>
-	   <li>Confusion Matrix using decision tree with feature engineering</li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_decision_tree_feature_engineering.PNG" height="200"/>
-	   <li>Improved prediction using <strong>Random Forest</strong></li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_random_forestPNG.PNG" height="200"/>
-	   <li>Improved prediction using <strong>AdaBoost</strong></li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_adaboost.PNG" height="200"/>
-	   <li>Improved prediction using <strong>Logistic regression</strong></li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_logistic_regression.PNG" height="200"/>
-	   <li>Improve prediction by stacking three methods using <strong>ensemble method</strong></li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/fit_ensemble.PNG" height="100"/>   
+	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/overfit.PNG" height="400"/> 
     </ul>
 </li>	
 
 
 <li><strong>“07_twitter_sentiment_analysis"</strong> demonstrates how I used machine learning algorithms, including Logistic regression, Naive Bayes and SVM to predict sentiments (negative and positive) of twitter messages
-    <ul> 
-	   <li>Confusion Matrix using <strong>Logistic regression</strong></li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_twitter_sentiment_analysis/out/pred_logistic.PNG" height="100"/>
-	   <li>Confusion Matrix using <strong>Naive Bayes</strong></li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_twitter_sentiment_analysis/out/pred_naive_bayes.PNG" height="100"/> 
-	   <li>Confusion Matrix using <strong>SVM</strong></li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_twitter_sentiment_analysis/out/pred_svm.PNG" height="100"/>
-       <li>Confusion Matrix using <strong>Ensemble Method</strong></li>
-	   <img src="https://github.com/aaronzhuclover/master/blob/master/07_twitter_sentiment_analysis/out/pred_ensemble.PNG" height="100"/>
-    </ul>
 </li>
+<br>
+
+
+<li><strong>“08_dashboard_excel_tableau"</strong> demonstrates how I created dashboard in Excel and Tableau
+</li>
+# Dashboard in Tableau 
+<https://public.tableau.com/shared/82XHHCJTQ?:showVizHome=no&:embed=true>
+# Dashboard in Excel
+<https://1drv.ms/x/s!AopQ7UGmMDONgWc9DuOeMea7WHkh> 
+<br>
+
+<li>
+<strong>“09_fraud_detection”</strong> demonstrates how created Dashboard using VBA and Tableau and predicted frauds in highly unbalanced data by training classifiers, including logistic regression, neural network and deep learning autoencoders   
+</li>
+<br>
+  <img src="https://github.com/aaronzhuclover/master/blob/master/09_fraud_detection/fraud_dashboard.PNG" height="450"/>
+<br>
+See interactive dashboard at https://public.tableau.com/views/Fraud_dashboard/FraudDashboard?:showVizHome=no&:embed=true
+<br>
+

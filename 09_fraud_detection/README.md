@@ -4,7 +4,8 @@
 <br>
   <img src="https://github.com/aaronzhuclover/master/blob/master/09_fraud_detection/fraud_dashboard.PNG" height="450"/>
 <br>
-
+See interactive dashboard at <https://public.tableau.com/views/Fraud_dashboard/FraudDashboard?:showVizHome=no&:embed=true> 
+<br>
 <li> <strong>Overview of Deeping Learning Autoencoders</strong>
       <ul> 
        <li>Fraud data are usually mislabeled (pre-defined labels will be wrong for some of the transactions because they are using rule-based techniques) and highly unbalanced (fraud transactions are much less – 1%). Most of supervised learning techniques, such as logistic regression, random forest, SVM, are sensitive to unbalance in predictor class. They trend to predict 0% fraud rate, which is not useful to decision makers</li>
@@ -12,6 +13,4 @@
        <li>[Method 2 – solve both mislabeling and unbalanceness] Deeping learning autoencoders apply backpropagation to lean identity function, where the output values are equal to the input. Since tiny portion of data are fraud, anomaly/ outliers are easier to be identified when computing errors between actual feature values and autoencoder representative (trained model are based data where most of observations are normal, therefore, error will be bigger for anomaly/outliers)</li>
       </ul>
 </li>	  
-	  
-	  
 	  

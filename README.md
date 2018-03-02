@@ -135,7 +135,7 @@ Applied EM algorithm to find 10 starting points. Applied Gibbs sampling in heter
 
 
 
-<li><strong>“06_titanic_machine_Learning"</strong> demonstrates how I used machine learning algorithms, including decision tree, random forest, AdaBoost and Logistic regression to predict survival on Titanic data
+<li><strong>“06_titanic_machine_Learning"</strong> demonstrates how I used machine learning algorithms, including <strong>decision tree, random forest, AdaBoost and Logistic regression</strong> to predict survival on Titanic data
     <ul> 
        <li>Predict survival using decision tree</li>
 	   <img src="https://github.com/aaronzhuclover/master/blob/master/06_titanic_machine_Learning/out/decision_tree_readme.PNG" height="450"/>
@@ -144,7 +144,7 @@ Applied EM algorithm to find 10 starting points. Applied Gibbs sampling in heter
 </li>	
 
 
-<li><strong>“07_twitter_sentiment_analysis"</strong> demonstrates how I used machine learning algorithms, including Logistic regression, Naive Bayes and SVM to predict sentiments (negative and positive) of twitter messages
+<li><strong>“07_twitter_sentiment_analysis"</strong> demonstrates how I used machine learning algorithms, including <strong>Logistic regression, Naive Bayes and SVM</strong> to predict sentiments (negative and positive) of twitter messages
 </li>
 <br>
 
@@ -163,7 +163,7 @@ See interaction dashboard in Excel at https://1drv.ms/x/s!AopQ7UGmMDONgWc9DuOeMe
 
 <br>
 <li>
-<strong>“09_fraud_detection_machine_learning”</strong> demonstrates how created Dashboard using VBA and Tableau and predicted frauds in highly unbalanced data by training classifiers, including logistic regression, neural network and deep learning autoencoders   
+<strong>“09_fraud_detection_machine_learning”</strong> demonstrates how created Dashboard using VBA and Tableau and predicted frauds in highly unbalanced data by training classifiers, including <strong>logistic regression, neural network and deep learning autoencoders</strong>   
 </li>
 <br>
 <img src="https://github.com/aaronzhuclover/master/blob/master/09_fraud_detection_machine_learning/autoencoder.PNG" height="250"/>

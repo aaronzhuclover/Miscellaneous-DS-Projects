@@ -1,8 +1,8 @@
-# This Github repository contains programs relevant to my resume.
+# Digitize Unstructured Data
 
-<li>
-<strong>“01_data_wrangling_visualization”</strong> demonstrates how I extracted and manipulated multiple data sources and transformed un-structured data into structured data in R with dplyr package and visualize data using ggplot2
-</li>
+<p>
+Python has several libraries (e.g. PyPDF2, tabula, etc.) that can deal with PDF files. In this section, Python library, “pdfquery” will be used to demonstrate how to import PDF files and convert unstructured data to structured data in Python.
+</p>
 
 <br>
   <img src="https://github.com/aaronzhuclover/master/blob/master/Digitize unstructured data/images/image1.PNG" height="450"/>

@@ -21,7 +21,7 @@
 
 <img src="https://github.com/aaronzhuclover/master/blob/master/Scrape data from website (Python)/images/image4.PNG" height="400"/>
 
-<p>With the power of Python libraries (Selenium and BeautifulSoup), we can also scrape historal product prices listed on Amazon from keepa.com and scrape all the coffee products sold by Target.</p>
+<p>With the power of Python libraries (Selenium and BeautifulSoup), we can also scrape historal product prices listed on Amazon from keepa.com and scrape all the coffee products sold by Target in its website.</p>
 
 <img src="https://github.com/aaronzhuclover/master/blob/master/Scrape data from website (Python)/images/image5.PNG" height="400"/>
 <img src="https://github.com/aaronzhuclover/master/blob/master/Scrape data from website (Python)/images/image6.PNG" height="400"/>

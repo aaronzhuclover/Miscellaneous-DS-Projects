@@ -1,4 +1,4 @@
-# This Github repository contains programs relevant to my resume.
+# This Github Repository Contains Miscellaneous Data Science Projects
 
 <li>
 <strong>“01_data_wrangling_visualization”</strong> demonstrates how I extracted and manipulated multiple data sources and transformed un-structured data into structured data in R with dplyr package and visualize data using ggplot2
